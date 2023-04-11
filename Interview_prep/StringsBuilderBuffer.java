@@ -5,8 +5,6 @@ class StringsBuilderBuffer
     public static void concatString(String str)
     {
         str=str+" antony";
-
-         
     }
     public static void concatstringbuffer(StringBuffer s)
     {
