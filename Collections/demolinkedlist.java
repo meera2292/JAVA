@@ -18,6 +18,6 @@ class demolinkedlist
 		{
 			System.out.println(it.next());
 		}
-		
+		obj.close();
 	}
 }

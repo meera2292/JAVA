@@ -14,6 +14,6 @@ class Fact
             fact=fact*j;
         }
         System.out.println("factorial is"+fact);
-        
+        obj.close();
     }
 }

@@ -11,5 +11,7 @@ public class GarbageCollection
         s1=null;  
         s2=null;  
         System.gc();
+        
+        
     }  
 }  

@@ -16,5 +16,6 @@ class demoarray
 		{
 				System.out.println(str);
 		}
+		obj.close();
 	}
 }
