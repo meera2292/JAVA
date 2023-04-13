@@ -3,12 +3,18 @@ class SortArray
 {
     public static void main(String args[])
     {
-        Scanner obj=new Scanner();
-        
-       System.out.println("Enter the size of the array";)
-       int size;
-       size=obj.next
-       sort(arr);
+       
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter the size of the array");
+        int size;
+        size=obj.nextInt();
+        int[] arr=new int[size];
+        for(int m=0;m<size;m++)
+        {
+            System.out.println("Enter your elements in array");
+            arr[m]=obj.nextInt();
+        }
+        sort(arr);
     }
     public static void sort( int input[])
 
