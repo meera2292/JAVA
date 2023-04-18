@@ -29,9 +29,10 @@ class SortArray
                         max=input[i];
                         input[i]=input[j];
                         input[j]=max;
-                        
+
                     }
             }
+            System.out.println(input[i]);
              System.out.println(input[i]);
 
         }
